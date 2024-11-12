@@ -1,0 +1,12 @@
+{
+  "name": "aula_01_ambiente_dev",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index,js"
+  },
+  "keywords": ["Projeto", "Ambiente"],
+  "author": "Isaac Neiff",
+  "license": "ISC",
+  "description": ""
+}
