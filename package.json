@@ -3,10 +3,20 @@
   "version": "1.0.0",
   "main": "./src/index.js",
   "scripts": {
-    "start": "node ./src/index,js"
+    "dev": "nodemon ./src/index.ts",
+    "start": "npx tsc && node ./dist/index.js"
   },
-  "keywords": ["Projeto", "Ambiente"],
+  "keywords": [
+    "Projeto",
+    "Ambiente"
+  ],
   "author": "Isaac Neiff",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
 }
